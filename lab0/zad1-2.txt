@@ -1,0 +1,19 @@
+zad 1
+
+1 + 2 int
+1 + 4.5 float
+3 / 2 float
+4 / 2 int
+3 // 2 int
+-3 // 2 int
+11 % 2 int
+2 ** 10 int
+8 ** (1/3) int
+
+zad 2
+
+int(3.0) usuwa część po przecinku
+float(3) dodaje (zerową) wartość po przecinku
+float("3")  zamienia tekst na liczbę z zerową wartością po przecinku
+str(12.4)   zamienia liczbę na tekst
+bool(0) zamienia liczbę na wartość logiczną
