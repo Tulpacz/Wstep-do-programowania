@@ -6,6 +6,10 @@ if a<b:
     while a<=b:
         print(a)
         a+=1
+
+elif a==b:
+    print("Liczby są równe, nie ma co liczyć")
+
 else:
     while b<=a:
         print(b)
