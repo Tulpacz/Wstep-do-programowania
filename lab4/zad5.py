@@ -1,4 +1,5 @@
 def ObliczBMI(waga,wzrost):
+    #0<wzr<3.0
     bmi = waga/wzrost**2
     print("Twoje BMI wynosi: ",bmi, sep="",end="")
     if bmi<18.5:
@@ -12,10 +13,7 @@ def ObliczBMI(waga,wzrost):
     elif bmi < 40:
         print(" - masz otyłość II stopnia")
     else:
-        print("Niepoprawne dane")
-
-
-
+        print(" - Niepoprawne dane")
 
 
     return bmi
