@@ -8,4 +8,4 @@ liczba = int(input("Podaj liczbę do potęgowania: "))
 wykladnik = int(input("Podaj wykładnik liczby: "))
 
 wynik = potega(liczba, wykladnik)
-print(f"{liczba}^{wykladnik} = {wynik}")
+print(f"{liczba}^{wykladnik} = {wynik}")f
